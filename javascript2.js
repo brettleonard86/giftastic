@@ -12,7 +12,7 @@ function populateButtons(searchArray,classToAdd,areaToAddTo){
     a.addClass(classToAdd);
     a.attr('value',searchArray[i]);
     a.text(searchArray[i]);
-    $(areaToAddTo).append(a);
+    $("#buttonsArea").append(a);
   }
 }
 
